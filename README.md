@@ -1,10 +1,10 @@
-# 📊 **Bangladesh Real Estate Market Insights: A Data-Driven Analysis of Dhaka Housing Prices**
+# **Bangladesh Real Estate Market Insights: A Data-Driven Analysis of Dhaka Housing Prices**
 
 ### **A Capstone Project | Data Analysis & Visualization**
 
 ---
 
-## 🧠 **Project Overview**
+## **Project Overview**
 
 Dhaka, one of the fastest-growing megacities in the world, faces rapid urbanization and continuous shifts in real estate demand. This project aims to uncover **data-driven insights** into housing prices across major neighborhoods in Dhaka.
 
@@ -20,7 +20,7 @@ You can visit the public dashboard [here](https://public.tableau.com/app/profile
 
 ---
 
-## 🎯 **Objectives**
+## **Objectives**
 
 1. Collect and prepare real estate listing data.
 2. Clean, transform, and structure datasets for analysis.
@@ -30,7 +30,7 @@ You can visit the public dashboard [here](https://public.tableau.com/app/profile
 
 ---
 
-## 📁 **Project Structure**
+## **Project Structure**
 
 ```
 📦 Bangladesh Real Estate Market Insights
@@ -38,12 +38,9 @@ You can visit the public dashboard [here](https://public.tableau.com/app/profile
  │    ├── raw/                 # Scraped/unprocessed data
  │    └── cleaned/             # Final cleaned datasets
  ├── notebooks/
- │    ├── 01_data_scraping.ipynb
- │    ├── 02_data_cleaning.ipynb
- │    ├── 03_eda_visualization.ipynb
- │    └── 04_final_analysis.ipynb
- ├── visuals/
- │    └── plots/               # All charts and graphs
+ │    ├── data_cleaning.ipynb
+ │    └── eda_visualization.ipynb
+ │            # All charts and graphs
  ├── src/
  │    ├── scraping.py
  │    ├── cleaning.py
@@ -54,51 +51,35 @@ You can visit the public dashboard [here](https://public.tableau.com/app/profile
 
 ---
 
-## 🛠️ **Tools & Technologies**
+##  **Tools & Technologies**
 
 | Category         | Tools                       |
 | ---------------- | --------------------------- |
 | Programming      | Python                      |
 | Data Wrangling   | Pandas, NumPy               |
-| Visualization    | Matplotlib, Seaborn, Plotly |
+| Visualization    | Matplotlib, Seaborn |
 | Scraping         | BeautifulSoup / Requests    |
 | Version Control  | Git, GitHub                 |
 | Optional BI Tool | Tableau                     |
 
 ---
 
-## 📈 **Key Analyses Performed**
+## **Key Analyses Performed**
 
-### ✔ Neighborhood-wise price distribution
+###  Neighborhood-wise price distribution
 
 Which areas of Dhaka are most expensive / affordable.
 
-### ✔ Price vs. apartment size
+###  Price vs. apartment size
 
 Scatter plots, regression lines, correlations.
 
-### ✔ Price variation over time
 
-If time-based data is available.
-
-### ✔ Outlier detection
-
-Identifying luxury or unusually low listings.
-
-### ✔ Interactive visualizations
+###  Interactive visualizations
 
 Plotly dashboards for exploration.
 
 ---
-
-## 🖼️ **Sample Visualizations**
-
-(Add your graphs here later)
-
-* Heatmap of price distribution
-* Boxplot of neighborhood comparisons
-* Scatter plot of size vs. price
-* Interactive map (if created)
 
 ---
 
@@ -111,11 +92,10 @@ Plotly dashboards for exploration.
   * Size (sq ft)
   * Price (total / per sq ft)
   * Bedrooms & bathrooms
-  * Additional features (parking, floor level, etc.)
 
 ---
 
-## 📌 **Insights Summary**
+##  **Insights Summary**
 
 1. **Dhanmondi** and **Gulshan** are the most expensive areas in Dhaka, with average property prices exceeding 60M BDT, highlighting the concentration of premium real estate in these well-established, central locations.
 
@@ -141,6 +121,10 @@ cd bangladesh-real-estate-market-insights
 ```bash
 pip install -r requirements.txt
 ```
+Download Chrome WebDrive from https://chromedriver.chromium.org/downloads
+Run the scraper
+scraper.py --chromedriver_path <path_to_chromedriver>
+You will get a file named dhaka_real_estate.csv containing all the required fields. Alternatively, check our scraped data here: https://github.com/Mushfiq-Azam/bangladesh-real-estate-market-insights/blob/main/notebooks/dhaka_real_estate.csv
 
 ### **3. Run the notebooks**
 
