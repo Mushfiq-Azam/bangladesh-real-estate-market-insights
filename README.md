@@ -33,7 +33,7 @@ You can visit the public dashboard [here](https://public.tableau.com/app/profile
 ## **Project Structure**
 
 ```
-📦 Bangladesh Real Estate Market Insights
+ Bangladesh Real Estate Market Insights
  ├── data/
  │    ├── raw/                 # Scraped/unprocessed data
  │    └── cleaned/             # Final cleaned datasets
@@ -107,7 +107,7 @@ Plotly dashboards for exploration.
 
 ---
 
-## 🚀 **How to Run This Project**
+##  **How to Run This Project**
 
 ### **1. Clone the repository**
 
