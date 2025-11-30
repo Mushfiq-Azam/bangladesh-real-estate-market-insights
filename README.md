@@ -83,9 +83,9 @@ Plotly dashboards for exploration.
 
 ---
 
-## 📑 **Dataset Description**
+##  **Dataset Description**
 
-* **Source**: Scraped from popular real estate platforms / publicly available listings.
+* **Source**: https://brokeragebd.com .
 * **Fields include**:
 
   * Location
@@ -124,6 +124,7 @@ pip install -r requirements.txt
 Download Chrome WebDrive from https://chromedriver.chromium.org/downloads
 Run the scraper
 scraper.py --chromedriver_path <path_to_chromedriver>
+
 You will get a file named dhaka_real_estate.csv containing all the required fields. Alternatively, check our scraped data here: https://github.com/Mushfiq-Azam/bangladesh-real-estate-market-insights/blob/main/notebooks/dhaka_real_estate.csv
 
 ### **3. Run the notebooks**
@@ -132,7 +133,7 @@ Open in Jupyter, VS Code, or Google Colab.
 
 ---
 
-## 📝 **Future Enhancements**
+## **Future Enhancements**
 
 * Predictive price modeling (Linear Regression, Random Forest)
 * Web dashboard (Streamlit)
@@ -141,7 +142,7 @@ Open in Jupyter, VS Code, or Google Colab.
 
 ---
 
-## 👨‍💻 **Authors**
+## **Authors**
 
 **Mushfiq Azam**
 (BSc in CSE, North South University)
