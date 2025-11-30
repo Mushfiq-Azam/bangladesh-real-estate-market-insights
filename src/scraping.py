@@ -11,7 +11,7 @@ import re
 import urllib.parse
 from utils import save_raw_data
 
-# Your ChromeDriver path
+# ChromeDriver path
 CHROME_DRIVER_PATH = r"E:\chromedriver-win64\chromedriver-win64\chromedriver.exe"
 
 # URL to scrape
