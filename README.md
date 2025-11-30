@@ -114,11 +114,13 @@ Plotly dashboards for exploration.
 
 ## 📌 **Insights Summary**
 
-*(You will fill this section after analysis)*
+1. **Dhanmondi** and **Gulshan** are the most expensive areas in Dhaka, with average property prices exceeding 60M BDT, highlighting the concentration of premium real estate in these well-established, central locations.
 
-* Example: “Banani and Gulshan show the highest per-sq-ft costs.”
-* Example: "Mirpur shows wide price variation due to property age and quality."
-* Example: “Apartment size has moderate correlation with total price, but weak correlation with price per sq ft.”
+2. Suburban areas like **Mirpur** and **Uttarkhan** offer more affordable properties, making them attractive for first-time buyers or those seeking larger homes at lower costs compared to premium zones.
+
+3. The significant price disparity between locations such as **Dhanmondi** and **Rampura** shows the sharp segmentation in Dhaka’s real estate market, catering to both luxury and budget-conscious buyers.
+
+4. **Rampura** and **Shyamoli** are emerging areas with increasing demand, suggesting future opportunities for development in suburban regions that remain more affordable compared to the city center.
 
 ---
 
