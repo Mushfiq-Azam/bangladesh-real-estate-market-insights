@@ -15,7 +15,7 @@ Using a combination of **Python, Pandas, data scraping, data cleaning, EDA, stat
 * Trends, distribution, and patterns in Dhaka’s real estate market
 * Data-driven insights useful for buyers, sellers, and policymakers
 
-You can visit the public dashboard [here](https://public.tableau.com/app/profile/mushfiq.azam/viz/Dhakarealestatemarketinsight/Dashboard1?publish=yes).
+You can visit the public dashboard [here](https://public.tableau.com/app/profile/mushfiq.azam/viz/DhakaRealEstateMarketAnalysis/HomeDhakaRealEstateAnalysis).
 
 
 ---
