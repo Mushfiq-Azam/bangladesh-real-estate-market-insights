@@ -1,6 +1,6 @@
 # **Bangladesh Real Estate Market Insights: A Data-Driven Analysis of Dhaka Housing Prices**
 
-### **A Capstone Project | Data Analysis & Visualization**
+### **A Data Analysis & Visualization Project**
 
 ---
 
